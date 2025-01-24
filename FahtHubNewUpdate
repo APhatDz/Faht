@@ -2548,7 +2548,7 @@ local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nguyen
 
 --Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
 local Tabs = {
-    Test = Window:AddTab({ Title = "•Don't check pls", Icon = "triangle-alert" }),
+    Test = Window:AddTab({ Title = "•Don't check pls", Icon = "ghost" }),
     About = Window: AddTab({ Title = "• information", Icon = "clipboard" }),
 	Settings = Window:AddTab({ Title = "• Settings", Icon = "cog" }),
 	Main = Window:AddTab({ Title = "• Auto Farm", Icon = "ghost" }),
@@ -10409,6 +10409,6 @@ Tabs.Test:AddButton({
     Description = “fuck your best friend”
     Callback = function ()
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
-end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))(
+   end
     })
