@@ -2538,7 +2538,7 @@ end
 local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenLam2504/rblx/refs/heads/main/gay.lua"))()
     local Window = Fluent:CreateWindow({
     Title = "AphatDz Hub" ,
-    SubTitle = "[Premium] ",
+    SubTitle = "[Premium]",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
@@ -2549,7 +2549,7 @@ local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nguyen
 --Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
 local Tabs = {
     Test = Window:AddTab({ Title = "•Don't check pls", Icon = "ghost" }),
-    About = Window: AddTab({ Title = "• information", Icon = "clipboard" }),
+    About = Window:AddTab({ Title = "• information", Icon = "clipboard" }),
 	Settings = Window:AddTab({ Title = "• Settings", Icon = "cog" }),
 	Main = Window:AddTab({ Title = "• Auto Farm", Icon = "ghost" }),
     Qs = Window:AddTab({ Title = "• Item Quest", Icon = "axe" }),
